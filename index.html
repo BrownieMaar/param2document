@@ -24,7 +24,7 @@
         let params = new URL(document.location).searchParams;
         let content = params.get("content");
 
-        document.querySelector('main').textContent = content;
+        content && document.querySelector('main').textContent = content;
     </script>
 </body>
 
