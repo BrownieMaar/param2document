@@ -19,12 +19,12 @@
 </head>
 
 <body>
-    <main>Welcome to this useful tool. Use the <code>content</code> query parameter to display text here.</main>
+    <main>Welcome to this useful tool. Use the content query parameter to display text here.</main>
     <script>
         let params = new URL(document.location).searchParams;
         let content = params.get("content");
 
-        content && document.querySelector('main').textContent = content;
+        if (content) document.querySelector('main').textContent = content;
     </script>
 </body>
 
