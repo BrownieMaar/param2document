@@ -9,4 +9,4 @@ On the page https://browniemaar.github.io/param2document/ if you add string with
 ## Examples
 
 [https://browniemaar.github.io/param2document/?content=This here is the content.](https://browniemaar.github.io/param2document/?content=This%20here%20is%20the%20content.)
-[https://browniemaar.github.io/param2document/?content=This here is the content.](https://browniemaar.github.io/param2document/?content=This%20also%20is%20the%20content.)
+[https://browniemaar.github.io/param2document/?content=This also is the content.](https://browniemaar.github.io/param2document/?content=This%20also%20is%20the%20content.)
